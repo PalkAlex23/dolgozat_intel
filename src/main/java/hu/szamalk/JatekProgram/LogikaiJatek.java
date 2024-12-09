@@ -16,7 +16,7 @@ public class LogikaiJatek {
     }
 
     public boolean van8FelettEro() {
-        return false;
+
     }
 
     public void kezd() {

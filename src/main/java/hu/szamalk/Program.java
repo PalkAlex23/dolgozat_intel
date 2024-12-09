@@ -1,6 +1,5 @@
 package hu.szamalk;
 
-import hu.szamalk.JatekProgram.LogikaiJatek;
 import hu.szamalk.modell.Tabla;
 
 import java.io.BufferedInputStream;
@@ -10,10 +9,6 @@ import java.io.InputStreamReader;
 
 public class Program {
     public static void main(String[] args) {
-        // F2 KEZDÉS
-        LogikaiJatek j1 = new LogikaiJatek(3);
-        LogikaiJatek j2 = new LogikaiJatek(10);
-        /*
         Tabla tabla = new Tabla('#');
         System.out.println("4. Feladat: Az üres tábla:");
         tabla.Megjelenit();
@@ -26,7 +21,7 @@ public class Program {
         System.out.println(tabla.UresOszlop(3));
         System.out.println(tabla.UresSor(7));
         */
-        /*
+
         // 9. feladat
         System.out.println("9. feladat: Üres oszlopok és sorok száma:");
         System.out.println("Oszlopok: " + tabla.UresOszlopokSzama());
@@ -46,7 +41,7 @@ public class Program {
             tabla2.Elhelyez(i);
             tabla2.Megjelenit();
         }
-        */
+
         // feladat vége
     }
 }
