@@ -43,5 +43,7 @@ public class Main {
         }
 
         // feladat vége
+
+        // f2 kezdés
     }
 }
