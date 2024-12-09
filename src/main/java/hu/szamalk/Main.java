@@ -41,5 +41,7 @@ public class Main {
             tabla2.Elhelyez(i);
             tabla2.Megjelenit();
         }
+
+        // feladat vége
     }
 }
