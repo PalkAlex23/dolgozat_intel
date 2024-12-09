@@ -20,6 +20,9 @@ public class Program {
         j2.kezd();
         j2.ment();
         j2.vege();
+
+        // f2 vége
+
         /*
         Tabla tabla = new Tabla('#');
         System.out.println("4. Feladat: Az üres tábla:");
