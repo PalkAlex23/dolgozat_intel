@@ -16,5 +16,6 @@ public class Main {
         System.out.println(tabla.UresOszlop(3));
         System.out.println(tabla.UresSor(7));
         */
+        
     }
 }

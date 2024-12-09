@@ -70,4 +70,25 @@ public class Tabla {
         }
         return vanKno;
     }
+
+    // 8. feladat
+    public int UresOszlopokSzama() {
+        int db = 0;
+        for(int i = 0; i < 8; i++) {
+            if(!UresOszlop(i)) {
+                db = db + 1;
+            }
+        }
+        return db;
+    }
+
+    public int UresSorokSzama() {
+        int db = 0;
+        for(int i = 0; i < 8; i++) {
+            if(!UresSor(i)) {
+                db = db + 1;
+            }
+        }
+        return db;
+    }
 }
