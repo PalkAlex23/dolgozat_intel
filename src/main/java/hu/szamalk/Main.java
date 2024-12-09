@@ -16,6 +16,10 @@ public class Main {
         System.out.println(tabla.UresOszlop(3));
         System.out.println(tabla.UresSor(7));
         */
-        
+
+        // 9. feladat
+        System.out.println("9. feladat: Üres oszlopok és sorok száma:");
+        System.out.println("Oszlopok: " + tabla.UresOszlopokSzama());
+        System.out.println("Sorok: " + tabla.UresSorokSzama());
     }
 }
