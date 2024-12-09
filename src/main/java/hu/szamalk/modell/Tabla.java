@@ -1,5 +1,7 @@
 package hu.szamalk.modell;
 
+import java.util.Arrays;
+
 // 1. feladat
 public class Tabla {
     // 2. feladat
@@ -10,10 +12,20 @@ public class Tabla {
     public Tabla(char karakter) {
         T = new char[8][8];
         UresCella = karakter;
-        for(int i = 0; i < 8; i++) {
-            for (int j = 0; j < 8; i++) {
-                T[i][j] = karakter;
+        for(int i = 0; i < T.length; i++) {
+            for (int j = 0; j < T[i].length; j++) {
+                Arrays.fill(T[j], UresCella);
             }
+        }
+    }
+
+    // 4. feladat
+    public void Megjelenit() {
+        for(int i = 0; i < T.length; i++) {
+            for (int j = 0; j < T[i].length; j++) {
+                System.out.print(T[i][j]);
+            }
+            System.out.println();
         }
     }
 }
