@@ -27,5 +27,22 @@ public class Tabla {
             }
             System.out.println();
         }
+        System.out.println();
+    }
+
+
+    // 5. feladat
+    public void Elhelyez(int N) {
+        for(int i = 0; i < N; i++) {
+            int p1 = (int) (Math.random() * 8 - 1) + 1;
+            int p2 = (int) (Math.random() * 8 - 1) + 1;
+
+            while (T[p1][p2] != UresCella) {
+                p1 = (int) (Math.random() * 8 - 1) + 1;
+                p2 = (int) (Math.random() * 8 - 1) + 1;
+            }
+
+            T[p1][p2] = 'K';
+        }
     }
 }
