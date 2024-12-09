@@ -11,5 +11,10 @@ public class Main {
         System.out.println("6. Feladat: A feltöltött tábla:");
         tabla.Elhelyez(8);
         tabla.Megjelenit();
+
+        /*
+        System.out.println(tabla.UresOszlop(3));
+        System.out.println(tabla.UresSor(7));
+        */
     }
 }

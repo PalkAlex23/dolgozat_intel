@@ -45,4 +45,29 @@ public class Tabla {
             T[p1][p2] = 'K';
         }
     }
+
+    // 7. feladat
+    public boolean UresOszlop(int oszlop) {
+        int i = 0;
+        boolean vanKno = false;
+        while (i < 8 && !vanKno) {
+            if (T[i][oszlop] == 'K') {
+                vanKno = true;
+            }
+            i++;
+        }
+        return vanKno;
+    }
+
+    public boolean UresSor(int sor) {
+        int i = 0;
+        boolean vanKno = false;
+        while (i < 8 && !vanKno) {
+            if (T[sor][i] == 'K') {
+                vanKno = true;
+            }
+            i++;
+        }
+        return vanKno;
+    }
 }
