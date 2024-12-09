@@ -8,27 +8,29 @@ public class LogikaiJatek {
     private int babuDb;
 
     public LogikaiJatek() {
-
+        this(3);
     }
 
     public LogikaiJatek(int babuDb) {
-
+        if(babuDb >= 2 && babuDb <= 15) {
+            this.babuDb = babuDb;
+        }
     }
 
     public boolean van8FelettEro() {
-
+        return false;
     }
 
     public void kezd() {
-
+        System.out.println("Kezdés");
     }
 
     public void ment() {
-
+        System.out.println("Mentés");
     }
 
     public void vege() {
-
+        System.out.println("Vége");
     }
 
     @Override
